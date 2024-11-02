@@ -14,6 +14,8 @@ class NoABB:
     self.__fd = no
   def getDado(self):
     return self.__dado
+  def setDado(self, d):
+    self.__dado = d
   def getChave(self):
     return self.getDado().getChave()
   def getValores(self):
